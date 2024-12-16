@@ -228,7 +228,7 @@ async def main(file_path):
         print("Narrative generation failed.")
 
 # Execute script
-if _name_ == "_main_":
+if __name__ == "__main__":
     if len(sys.argv) != 2:
         print("Usage: python script.py <file_path>")
         sys.exit(1)
